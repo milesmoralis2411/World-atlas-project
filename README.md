@@ -64,8 +64,8 @@ Here are some screenshots of the application in action:
 - **🌍 Country Explorer**:
   ![Country Explorer](public/images/country-page.png.png)
 
-- **🚫 404 Error Page**:
-  ![Error Page](public/images/error-page.png.png)
+- **📞 Contact Page**:
+  ![Error Page](public/images/contact-page.png.png)
 
 ---
 
