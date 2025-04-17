@@ -59,22 +59,18 @@ World Atlas Project is an interactive React web application that lets users expl
 Here are some screenshots of the application in action:
 
 - **🏠 Home Page**:
-  ![Home Page](public/images/home-page.png)
+  ![Home Page](/images/home-page.png)
   
 - **🌍 Country Explorer**:
-  ![Country Explorer](public/images/country-page.png)
+  ![Country Explorer](/images/country-page.png)
 
 - **🚫 404 Error Page**:
-  ![Error Page](public/images/error-page.png)
+  ![Error Page](/images/error-page.png)
 
 ---
 
 ## 🤝 Contributing
 
 Pull requests and suggestions are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-**Explore the world, one country at a time!** 🌍✈️
 
 
