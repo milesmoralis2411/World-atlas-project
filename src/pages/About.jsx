@@ -1,7 +1,8 @@
 import countryFacts from "../api/countryData.json";
-export const About = () =>{
-    return <section className="section-about container">
-         <h2 className="container-title">
+export const About = () => {
+  return (
+    <section className="section-about container">
+      <h2 className="container-title">
         Here are the Interesting Facts
         <br />
         we’re proud of
@@ -33,4 +34,5 @@ export const About = () =>{
         })}
       </div>
     </section>
-}
+  );
+};
