@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Contact = () => {
   const handleFormSubmit = (formData) => {
     const formInputData = Object.fromEntries(formData.entries());

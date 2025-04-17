@@ -1,4 +1,6 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
+import React from 'react';
+
 export const HeroSection = () => {
   return (
     <main className="hero-section main">
