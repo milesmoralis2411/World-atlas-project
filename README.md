@@ -1,12 +1,80 @@
-# React + Vite
+# 🌍 World Atlas Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Description
 
-Currently, two official plugins are available:
+World Atlas Project is an interactive React web application that lets users explore information about countries worldwide. 🌏 Browse, search, and filter countries, view country details, and discover interesting facts about each region. The app is designed to be intuitive, educational, and visually engaging. 🗺️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **🏠 Home Page**: Welcoming introduction and navigation.
+- **🌍 Country Explorer**:
+  - Browse all countries with flags 🇫🇷 and key info ℹ️
+  - 🔍 Search countries by name
+  - 🌎 Filter countries by region (continent)
+  - 🏙️ View detailed information (capital, population, region, etc.)
+- **🧑‍🏫 About Page**: Learn about the project and its goals.
+- **📞 Contact Page**: Simple contact information.
+- **🚫 404 Error Page**: Custom page for invalid routes.
+- **📱 Responsive Design**: Works on desktop 💻 and mobile 📱 devices.
+
+---
+
+## ⚙️ Tech Stack
+
+- **🔧 Frontend**: React (Hooks) ⚛️
+- **🔄 Routing**: React Router DOM
+- **🎨 Styling**: CSS (Grid & Flexbox)
+- **🌐 Data Source**: [REST Countries API](https://restcountries.com/)
+- **⚡ Tooling**: Vite, npm
+
+---
+
+## 📝 Setup Instructions
+
+1. **Clone the repository**  
+    ```
+    git clone https://github.com/milesmoralis2411/World-atlas-project.git
+    cd World-atlas-project
+    ```
+
+2. **Install dependencies**  
+    ```
+    npm install
+    ```
+
+3. **Start the development server**  
+    ```
+    npm run dev
+    ```
+
+4. **Open in your browser**  
+    - Visit [http://localhost:5173](http://localhost:5173) (or the URL shown in your terminal).
+
+---
+
+## 🎨 Screenshots
+
+Here are some screenshots of the application in action:
+
+- **🏠 Home Page**:
+  ![Home Page](public/images/home-page.png)
+  
+- **🌍 Country Explorer**:
+  ![Country Explorer](public/images/country-page.png)
+
+- **🚫 404 Error Page**:
+  ![Error Page](public/images/error-page.png)
+
+---
+
+## 🤝 Contributing
+
+Pull requests and suggestions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+**Explore the world, one country at a time!** 🌍✈️
+
+
