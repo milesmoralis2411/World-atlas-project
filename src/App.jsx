@@ -3,9 +3,10 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Country } from './pages/Country'
 import { Contact } from './pages/Contact'
-import { AppLayout } from './components/AppLayout'
+import { AppLayout } from './components/Layout/AppLayout'
 import { ErrorPage } from './pages/ErrorPage'
 import {createBrowserRouter,  RouterProvider } from 'react-router-dom'
+import { CountryDetails } from './components/Layout/CountryDetails'
 const router = createBrowserRouter([
   {
     path : '/',
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path : 'country',
         element : <Country/>
+      },
+      {
+        path: "country/:id",
+        element: <CountryDetails />,
       }
     ]
       
