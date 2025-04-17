@@ -13,10 +13,9 @@ export const HeroSection = () => {
             search, and filter through countries to find the details you need.
           </p>
           <button className="btn btn-darken btn-inline bg-white-box">
-            <Navlink to='/country'>
-            Start Exploring <FaLongArrowAltRight />
-            </Navlink>
-           
+            <NavLink to='/country'>
+            <p color="white" >Start Exploring <FaLongArrowAltRight /></p>
+            </NavLink>
           </button>
         </div>
         <div className="hero-image">
