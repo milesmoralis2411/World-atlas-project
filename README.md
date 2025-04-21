@@ -67,6 +67,9 @@ Here are some screenshots of the application in action:
 - **📞 Contact Page**:
   ![Error Page](public/images/contact-page.png)
 
+- **🏙️ Country Details**:
+  ![Country details](public/images/country-detail.png)
+
 ---
 
 ## 🤝 Contributing
